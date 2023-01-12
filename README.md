@@ -9,7 +9,7 @@ Source and solution for Second Qualify Round of IU Security Club's Recruitment.
 >>
 >> [Fragile](./Reverse%20Engineering/Fragile/README.md)
 
-> [Web](./Web%20Exploitation/)
+> [Web Exploitation](./Web%20Exploitation/)
 >> 
 >>
 >> 
