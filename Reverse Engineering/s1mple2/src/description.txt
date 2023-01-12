@@ -1,0 +1,1 @@
+Fine. I made it a bit more secure by not just leaving it directly in the code.
