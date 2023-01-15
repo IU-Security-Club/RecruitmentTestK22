@@ -8,11 +8,11 @@ Tương tự sẽ check biến __access__ sau khi __checkpass__ được gọi v
 
 ![image](../image/squeezy_1.png)
 
-Tại hàm __checkpass__ gọi đến hàm __woah__ với 2 tham số là __key__ và __userinput__. Hàm này sử dụng 2 chuỗi được đưa vào để tạo ra 1 chuỗi mới bằng cách sử dụng phép XOR. __chr__ convert từ giá trị ascii sang char. __ord__ thì ngược lại, từ char sáng giá trị ascii.
+Tại hàm __checkpass__ gọi đến hàm __woah__ với 2 tham số là __key__ và __userinput__. Hàm này sử dụng 2 chuỗi được đưa vào để tạo ra 1 chuỗi mới bằng cách sử dụng phép XOR. __chr__ convert từ giá trị ascii sang char. __ord__ thì ngược lại, từ char sang giá trị ascii.
 
 ![image](../image/squeezy_2.png)
 
-Đơn giản, nó như dưới:
+Tách ra, nó như dưới:
 ```python
 def woah(s1, s2)
     r = ''
