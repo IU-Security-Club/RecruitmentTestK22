@@ -44,6 +44,7 @@ def catcheckpass():
 
 def woah(s1,s2):
     return ''.join(chr(ord(a) ^ ord(b)) for a,b in zip(s1,s2))
+    
 access = False
 main()
 input("\nPress Enter to continue...")

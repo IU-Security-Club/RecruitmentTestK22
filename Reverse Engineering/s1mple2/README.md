@@ -1,6 +1,6 @@
 Bước đầu tiên, ta cần đưa nó về source code python, làm tương tự như bài [s1mple1](../s1mple1/README.md)
 
-Sau khi đã có source codeta vẫn tiếp tục đọc code và phân tích luồng hoạt động của nó:
+Sau khi đã có source code ta vẫn tiếp tục đọc code và phân tích luồng hoạt động của nó:
 
 Thấy rằng hàm __main__ sẽ được gọi đầu tiên,
 
